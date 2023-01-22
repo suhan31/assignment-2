@@ -395,7 +395,8 @@ footer styles
         grid-template-columns: repeat(2, 1fr);
     }
     .fact-div{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
+        margin-right: 30px;
     }
     .sponsor{
         margin: 50px;
