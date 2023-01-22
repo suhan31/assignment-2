@@ -1,5 +1,9 @@
 /* -----font------- */
+
+
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:wght@500&family=Work+Sans&display=swap");
+
+/* ------universal styles--------- */
 
 * {
     margin: 0;
@@ -46,6 +50,7 @@
     margin-left: 40px;
     font-weight: 500;
     font-size: 18px;
+    color: #424242;
 }
 
 /*--------------
@@ -256,6 +261,7 @@ fact section styles
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 100px;
+    margin-left: 30px;
 }
 .fact-div{
     width: 180px;
@@ -278,7 +284,7 @@ fact section styles
 }
 .fact-subtitle{
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 900;
     color: #424242;
     padding-bottom: 5px;
 }
@@ -294,3 +300,62 @@ Sponsor section styles
 -------------------- */
 
 
+.sponsor{
+    margin: 0 170px ;
+}
+.sponsor-art{}
+.sponsor-head{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.sponsor-title{
+    font-weight: 900;
+    font-size: 30px;
+    color: #131313;
+    padding-bottom: 20px;
+}
+.sponsor-des{
+    font-size: 16px;
+    color: #727272;
+}
+.sponsor-company{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+.sponsor-img img{
+    width: 120px;
+    height: 40px;
+}
+/* ----------
+footer styles
+--------------- */
+
+.footer{
+    margin: 150px 170px;
+    width: 1000px;
+    height: 80px;
+    text-align: center;
+    background-color:#FFF4E7;
+    border-radius: 8px;
+}
+.footer-des{
+    font-size: 15px;
+    color: #424242;
+    padding-top: 30px;
+}
+
+/* -------Mobile phone Queries------------- */
+
+
+@media screen and (max-width:688px) {
+    .banner{
+        width: 100%;
+        background-color:#FFFFFF;
+    }
+    .navbar{
+       
+    }
+    
+}
