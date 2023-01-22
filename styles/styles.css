@@ -205,7 +205,6 @@ feature section styles
     color: #727272;
 }
 
-.feature-img {}
 
 .feature-img img {
     width: 500px;
@@ -303,7 +302,6 @@ Sponsor section styles
 .sponsor{
     margin: 0 170px ;
 }
-.sponsor-art{}
 .sponsor-head{
     text-align: center;
     margin-bottom: 35px;
@@ -353,9 +351,65 @@ footer styles
     .banner{
         width: 100%;
         background-color:#FFFFFF;
+        margin-bottom: 270px;
     }
     .navbar{
-       
+       flex-direction: column;
     }
-    
+    .navbar-link{
+        padding-top: 30px;
+        flex-direction: column;
+    }
+    .banner-core{
+        margin: 10px;
+    }
+    .banner-img img{
+        margin: 10px;
+        width: 480px;
+        height: 450px;
+        
+    }
+    .team{
+        margin: 10px;
+        flex-direction: column;
+    }
+    .team-img{
+    grid-template-columns: repeat(1, 1fr);
+    }
+    .team-img img{
+        width: 400px;
+        height: 350px;
+    }
+    .team-features{
+        margin: 20px 10px;
+    }
+    .feature-section{
+        margin: 10px;
+        flex-direction: column;
+    }
+    .fact{
+        margin: 20px;
+    }
+    .fact-work{
+        margin: 10px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .fact-div{
+        margin-bottom: 20px;
+    }
+    .sponsor{
+        margin: 50px;
+    }
+    .sponsor-company{
+        margin: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .sponsor-img{
+        margin: 10px;
+    }
+    .footer{
+        width: 450px;
+        height: 80px;
+        margin: 10px;
+    }
 }
