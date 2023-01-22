@@ -74,11 +74,14 @@ banner article styles
     height: 54px;
     border-radius: 8px;
     background-color: #FF900E;
-    color: #FFFFFF;
     font-weight: 600;
     font-size: 15px;
     margin-bottom: 30px;
     border: 1px solid #FF900E;
+}
+.btn-primary a{
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .banner-img img {
@@ -94,7 +97,7 @@ main part start
 
 
 /* ----------
-team section
+team section styles
 -------------- */
 
 
@@ -127,15 +130,98 @@ team section
     font-size: 40px;
     padding-bottom: 20px;
 }
-.title-font{
+
+.title-font {
     font-weight: 500;
     color: #727272;
 }
-.title-color{
+
+.title-color {
     color: #FF900E;
 }
+
 .team-description {
     font-size: 16px;
     color: #727272;
     padding-bottom: 25px;
+}
+
+
+/* -----------
+feature section styles
+------------------------- */
+
+.feature-section {
+    display: flex;
+    margin: 100px 160px;
+}
+
+.features {
+    margin-right: 40px;
+}
+
+.feature-head {
+    display: flex;
+}
+
+.feature-title {
+    font-weight: 900;
+    font-size: 30px;
+    color: #131313;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.feature-types {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 25px;
+}
+
+.feature-box {
+    width: 350px;
+    height: 100px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 25px;
+    margin: 10px;
+}
+
+.feature-subtitle {
+    font-weight: 700;
+    font-size: 15px;
+    color: #131313;
+    padding-bottom: 10px;
+}
+
+.feature-description {
+    font-size: 15px;
+    color: #727272;
+}
+
+.feature-img {}
+
+.feature-img img {
+    width: 500px;
+    height: 800px;
+    border-radius: 10px;
+}
+
+.feature-btn {
+    width: 150px;
+    height: 100px;
+    background-color: #FF900E;    
+    border-radius: 8px;
+    border: none;
+}
+.feature-btn a{
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 30px;
+}
+.feature-btn a .button-font{
+    font-weight: 400;
+    font-size: 15px;
 }
